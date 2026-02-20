@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Display App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Display App</h1>
+        
+        <div class="controls">
+            <div class="input-group">
+                <label for="wordInput">Enter a word:</label>
+                <input type="text" id="wordInput" placeholder="Type your word here..." />
+            </div>
+            
+            <div class="input-group">
+                <label for="colorSelect">Select a color:</label>
+                <select id="colorSelect">
+                    <option value="#000000">Black</option>
+                    <option value="#FF0000">Red</option>
+                    <option value="#0000FF">Blue</option>
+                    <option value="#00FF00">Green</option>
+                    <option value="#FFA500">Orange</option>
+                    <option value="#800080">Purple</option>
+                    <option value="#FFD700">Gold</option>
+                    <option value="#FF1493">Pink</option>
+                </select>
+            </div>
+            
+            <div class="input-group">
+                <label for="fontSelect">Select a font:</label>
+                <select id="fontSelect">
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="'Times New Roman', serif">Times New Roman</option>
+                    <option value="'Courier New', monospace">Courier New</option>
+                    <option value="Georgia, serif">Georgia</option>
+                    <option value="'Comic Sans MS', cursive">Comic Sans MS</option>
+                    <option value="Impact, sans-serif">Impact</option>
+                    <option value="'Trebuchet MS', sans-serif">Trebuchet MS</option>
+                    <option value="Verdana, sans-serif">Verdana</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="display-area">
+            <div id="wordDisplay">Your word will appear here</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
